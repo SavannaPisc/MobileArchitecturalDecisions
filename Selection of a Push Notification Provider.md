@@ -13,26 +13,23 @@ Proposed
 
 ## Context
 
-Determining the framework or technology stack for efficient development and maintanence across multiple platforms.
+Determining the push notification service that will be used within the application.
 
 ## Options
 
-- Flutter
-- React Native
-- Xamarin
-- Native Script
+- React Native Push Notifications
+- React Native Notifications
 
 ## Decision
 
-The decision is made to use the React Native framework
+The decision is made to use the React Native Push Notifications.
 
 ## Rationale
-- Cost and development time reduced due to reusability of code and quick iteration cycles.
-- Compatible with third-party plugins.
-- Provides responsive UX/UI.
-- Stable performance across devices and platforms.
+- Works for both iOS and Android.
+- Local and Remote notifications.
+- Maintains app user engagement.
+- Keeps user informed on assignment deadlines, announcements, and relevant updates.
 
 ## Consequences
-- Platform specific tasks may need to be accomplished.
-- Larger app sizes.
-- Debugging and troubleshooting is challenging.
+- Differences in platforms create inconsistencies.
+- No longer in development, meaning queries may not be answerable.
