@@ -34,7 +34,8 @@ The decision is made to use the React Query API.
 - Able to debug and inspect application queries and cache.
 - Ensures data is constantly up-to-date.
 - Reduces number of API requests for a single piece of data.
+- Reduces data usage.
 
 ## Consequences
-- Not suitable for complex, large-scale apllications.
+- Not suitable for complex, large-scale applications.
 - Not optimized for updating data.
