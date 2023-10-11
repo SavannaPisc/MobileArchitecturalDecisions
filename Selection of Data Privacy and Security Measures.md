@@ -13,26 +13,21 @@ Proposed
 
 ## Context
 
-Determining the framework or technology stack for efficient development and maintanence across multiple platforms.
+Determining the data transmission protocols and security measures that will be put into place.
 
 ## Options
 
-- Flutter
-- React Native
-- Xamarin
-- Native Script
+- React Native Encrypted Storage
+- 
 
 ## Decision
 
 The decision is made to use the React Native framework
 
 ## Rationale
-- Cost and development time reduced due to reusability of code and quick iteration cycles.
-- Compatible with third-party plugins.
-- Provides responsive UX/UI.
-- Stable performance across devices and platforms.
+- Works for both iOS and Android
+- 
 
 ## Consequences
-- Platform specific tasks may need to be accomplished.
-- Larger app sizes.
-- Debugging and troubleshooting is challenging.
+- Difficulties in implementing all security measures simultaneously.
+- Increase in development time for security configuration.
