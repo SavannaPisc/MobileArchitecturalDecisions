@@ -33,6 +33,7 @@ The decision is made to use the React-Native-TTS library for text-to-speech impl
 - Enables a wide variety of users to effectively interact with the appplication.
 - Works for both iOS and Android.
 - Able to use some text-to-speech features offline.
+- Multiple accessibility features ensure the useability of the application in any environment.
 
 ## Consequences
 - Differences between platforms creates lack of consistency.
