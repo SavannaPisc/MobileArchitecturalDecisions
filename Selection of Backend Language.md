@@ -36,4 +36,4 @@ The decision is made to use NodeJS as the backend language.
 
 ## Consequences
 - Complexity in Node.js learning curve can cause development time to be increased.
-- Frequent updates means that application code must stay up-to-date.
+- Can lead to complex and hard to read code.
