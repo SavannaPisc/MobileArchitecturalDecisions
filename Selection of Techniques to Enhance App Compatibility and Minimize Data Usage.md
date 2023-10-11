@@ -36,4 +36,5 @@ The decision is made to use the React Query API.
 - Reduces number of API requests for a single piece of data.
 
 ## Consequences
-- Not suitable for more complex or 
+- Not suitable for complex, large-scale apllications.
+- Not optimized for updating data.
