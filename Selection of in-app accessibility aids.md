@@ -6,7 +6,7 @@ You can use [adr-tools](https://github.com/npryce/adr-tools) for managing the AD
 In each ADR file, write these sections: -->
 # Scenario 2
 
-# Decision Title: Selection of offline capabilities and data synchronization mechanisms
+# Decision Title: Selection of In-app Accessibility Features
 
 ## Status
 
@@ -14,26 +14,23 @@ Proposed
 
 ## Context
 
-Determining the framework or technology stack for efficient development and maintanence across multiple platforms.
+Determining the accessibility aids that the application will offer to users.
 
 ## Options
 
-- Flutter
-- React Native
-- Xamarin
-- Native Script
+- Google Cloud Speech to Text
+- React-Native-TTS library
 
 ## Decision
 
 The decision is made to use the React Native framework
 
 ## Rationale
-- Cost and development time reduced due to reusability of code and quick iteration cycles.
-- Compatible with third-party plugins.
-- Provides responsive UX/UI.
-- Stable performance across devices and platforms.
+- Enables a wide variety of users to effectively interact with the appplication.
+- Works for both iOS and Android.
+- Able to use some text-to-speech features offline.
+- 
 
 ## Consequences
-- Platform specific tasks may need to be accomplished.
-- Larger app sizes.
-- Debugging and troubleshooting is challenging.
+- Differences in voice selection between platforms creates lack of consistency.
+- 
