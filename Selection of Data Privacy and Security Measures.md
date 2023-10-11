@@ -18,15 +18,21 @@ Determining the data transmission protocols and security measures that will be p
 ## Options
 
 - React Native Encrypted Storage
-- 
+- SSL Encryption
+- Jscrambler
+- JSDefender
+- Formik
 
 ## Decision
 
-The decision is made to use the React Native framework
+The decision is made to use React Native Encrypted Storage, SSL encryption, and Formik to ensure layered protection for users.
 
 ## Rationale
-- Works for both iOS and Android
-- 
+- Works for both iOS and Android.
+- Layered protection to ensure user data security.
+- Encrypts stored data, including student grades and personal information.
+- Validates and sanitizes user input.
+- Protects against many common security breaches, including SQL injections.
 
 ## Consequences
 - Difficulties in implementing all security measures simultaneously.
