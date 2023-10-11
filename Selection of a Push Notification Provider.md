@@ -6,8 +6,7 @@ You can use [adr-tools](https://github.com/npryce/adr-tools) for managing the AD
 In each ADR file, write these sections: -->
 # Scenario 2
 
-# Decision Title: Selection of offline capabilities and data synchronization mechanisms
-
+# Decision Title: Selection of a
 ## Status
 
 Proposed
