@@ -22,6 +22,7 @@ Determining the data transmission protocols and security measures that will be p
 - Jscrambler
 - JSDefender
 - Formik
+- Use a variety of security measures together
 
 ## Decision
 
