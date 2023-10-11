@@ -6,7 +6,7 @@ You can use [adr-tools](https://github.com/npryce/adr-tools) for managing the AD
 In each ADR file, write these sections: -->
 # Scenario 2
 
-# Decision Title: Selection of offline capabilities and data synchronization mechanisms
+# Decision Title: Selection of Techniques to Enhance App Compatibility and Minimize Data Usage
 
 ## Status
 
@@ -14,26 +14,26 @@ Proposed
 
 ## Context
 
-Determining the framework or technology stack for efficient development and maintanence across multiple platforms.
+Determining the techniques established to maximize optimization and data usage across a range of devices and platforms.
 
 ## Options
 
-- Flutter
-- React Native
-- Xamarin
-- Native Script
+- RESTful API
+- React Query
+- ReduxToolKit Query
+- GraphQL
 
 ## Decision
 
-The decision is made to use the React Native framework
+The decision is made to use the React Query API.
 
 ## Rationale
-- Cost and development time reduced due to reusability of code and quick iteration cycles.
-- Compatible with third-party plugins.
-- Provides responsive UX/UI.
-- Stable performance across devices and platforms.
+- Data handling focus.
+- Array of resources from a commited community.
+- Provides a more responsive user experience.
+- Able to debug and inspect application queries and cache.
+- Ensures data is constantly up-to-date.
+- Reduces number of API requests for a single piece of data.
 
 ## Consequences
-- Platform specific tasks may need to be accomplished.
-- Larger app sizes.
-- Debugging and troubleshooting is challenging.
+- Not suitable for more complex or 
