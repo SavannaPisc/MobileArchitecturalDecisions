@@ -30,7 +30,7 @@ The decision is made to use the Realm local database in tandem with React Native
 - Runs in the background, collecting and saving user data and services as they interact with the application.
 - Employs variety of encryption security measures to ensure safety of data stored.
 - Open-source and regular version is free.
-- East use of React Hooks API.
+- Easy use of React Hooks API.
 - Faster than many alternatives.
 - Simple incorporation into projects.
 
