@@ -20,17 +20,19 @@ Determining the accessibility aids that the application will offer to users.
 
 - Google Cloud Speech to Text
 - React-Native-TTS library
+- High contrast modes
+- Support for assistive technologies
+- Implement multiple features using Google Cloud Speech to Text, high contrast modes, and support for assistive technologies
+- Implement multiple features using React-Native-TTS library, high contrast modes, and support for assistive technologies
 
 ## Decision
 
-The decision is made to use the React Native framework
+The decision is made to use the React-Native-TTS library for text-to-speech implementation, along with the use of high contrast modes and a support for assistive technologies.
 
 ## Rationale
 - Enables a wide variety of users to effectively interact with the appplication.
 - Works for both iOS and Android.
 - Able to use some text-to-speech features offline.
-- 
 
 ## Consequences
-- Differences in voice selection between platforms creates lack of consistency.
-- 
+- Differences between platforms creates lack of consistency.
